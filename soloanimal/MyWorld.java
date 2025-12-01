@@ -43,4 +43,10 @@ public class MyWorld extends World
         score++;
         scoreLabel.setValue(score);
     }
+    
+    public void gameOver()
+    {
+        Label gameOverLabel = new Label("Game Over", 100);
+        addObject(gameOverLabel, 300, 200);
+    }
 }
