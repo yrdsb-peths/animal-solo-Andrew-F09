@@ -29,8 +29,9 @@ public class MyWorld extends World
     public void createApple()
     {
         Apple apple = new Apple();
-        addObject(apple, 300, 100);
-       
+        int x = Greenfoot.getRandomNumber(600);
+        int y = Greenfoot.getRandomNumber(300);
+        addObject(apple, x, y);
         
     }
 }
